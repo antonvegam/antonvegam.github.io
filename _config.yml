@@ -10,10 +10,6 @@ description: "Personal website of Antón Vega, bioinformatician specializing in 
 navbar-links:
   About: "about"
   Projects: "projects"
-  Publications: "publications"
-  Blog: "blog"
-  CV: "cv"
-  Contact: "contact"
   
 # Multi-language support
 languages:
