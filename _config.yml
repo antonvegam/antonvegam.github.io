@@ -194,3 +194,5 @@ words_per_minute: 200
 # Custom CSS for bioinformatics-specific styling
 custom-css: "/assets/css/custom.css"
 custom-js: "/assets/js/custom.js"
+ext-css: "/assets/css/dark-theme.css"
+
