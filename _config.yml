@@ -40,9 +40,9 @@ languages:
 
 social-network-links:
   email: "antonvegamendez@gmail.com"
-  github: antonvegam
+  github: "https://github.com/antonvegam"
   linkedin: antonvega-bioinformatics
-  ORCID: https://orcid.org/0009-0004-0525-6635
+  ORCID: "https://orcid.org/0009-0004-0525-6635"
   # ResearchGate can be added as a custom link if needed
 
 ###########################
