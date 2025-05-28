@@ -78,7 +78,7 @@ navbar-var-length: true
 ######################################
 
 # Dark theme color scheme for professional bioinformatics website
-page-col: "##54b86f"           # Dark background
+page-col: "#54b86f"           # Dark background
 text-col: "#e0e0e0"           # Light text
 link-col: "#64b5f6"           # Professional blue links
 hover-col: "#42a5f5"          # Lighter blue on hover
