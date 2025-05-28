@@ -8,7 +8,7 @@ description: "Personal website of Antón Vega, bioinformatician specializing in 
 ###############################################
 
 navbar-links:
-  About: "about"
+  About: "aboutme"
   Projects: "projects"
   
 # Multi-language support
