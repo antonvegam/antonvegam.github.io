@@ -1,0 +1,381 @@
+/* Dark Theme Override for Beautiful Jekyll */
+
+/* Professional Font Configuration */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+/* Main page background and text */
+body {
+    background-color: #1a1a1a !important;
+    color: #e0e0e0 !important;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    font-weight: 400 !important;
+}
+
+/* Content container */
+.container-fluid {
+    background-color: #1a1a1a !important;
+}
+
+/* Navigation bar */
+.navbar-custom {
+    background-color: #2d2d2d !important;
+    border-bottom: 1px solid #404040 !important;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    letter-spacing: -0.025em !important;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link:focus {
+    color: #64b5f6 !important;
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: #404040 !important;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* Dropdown menus */
+.dropdown-menu {
+    background-color: #2d2d2d !important;
+    border: 1px solid #404040 !important;
+}
+
+.dropdown-item {
+    color: #e0e0e0 !important;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #404040 !important;
+    color: #64b5f6 !important;
+}
+
+/* Main content area */
+.main-content {
+    background-color: #1a1a1a !important;
+    color: #e0e0e0 !important;
+}
+
+/* Cards and panels */
+.panel,
+.card {
+    background-color: #2d2d2d !important;
+    border: 1px solid #404040 !important;
+    color: #e0e0e0 !important;
+}
+
+.panel-heading,
+.card-header {
+    background-color: #333333 !important;
+    border-bottom: 1px solid #404040 !important;
+    color: #e0e0e0 !important;
+}
+
+/* Links */
+a {
+    color: #64b5f6 !important;
+}
+
+a:hover,
+a:focus {
+    color: #42a5f5 !important;
+    text-decoration: none !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.025em !important;
+}
+
+h1 {
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+}
+
+h2 {
+    font-size: 2rem !important;
+    margin-bottom: 0.8rem !important;
+}
+
+h3 {
+    font-size: 1.5rem !important;
+    margin-bottom: 0.7rem !important;
+}
+
+h4 {
+    font-size: 1.25rem !important;
+    margin-bottom: 0.6rem !important;
+}
+
+h5 {
+    font-size: 1.125rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+h6 {
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* Code blocks */
+pre {
+    background-color: #1e1e1e !important;
+    border: 1px solid #404040 !important;
+    color: #e0e0e0 !important;
+    font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace !important;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    border-radius: 6px !important;
+    padding: 1rem !important;
+}
+
+code {
+    background-color: #333333 !important;
+    color: #64b5f6 !important;
+    border: 1px solid #404040 !important;
+    font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace !important;
+    font-size: 14px !important;
+    border-radius: 3px !important;
+    padding: 2px 4px !important;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid #64b5f6 !important;
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+}
+
+/* Tables */
+table {
+    background-color: #2d2d2d !important;
+    color: #e0e0e0 !important;
+}
+
+table thead {
+    background-color: #333333 !important;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #2a2a2a !important;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #2d2d2d !important;
+}
+
+table td, table th {
+    border: 1px solid #404040 !important;
+}
+
+/* Footer */
+.footer {
+    background-color: #2d2d2d !important;
+    border-top: 1px solid #404040 !important;
+    color: #b0b0b0 !important;
+}
+
+.footer a {
+    color: #64b5f6 !important;
+}
+
+.footer a:hover {
+    color: #42a5f5 !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #64b5f6 !important;
+    border-color: #64b5f6 !important;
+    color: #ffffff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #42a5f5 !important;
+    border-color: #42a5f5 !important;
+}
+
+.btn-outline-primary {
+    color: #64b5f6 !important;
+    border-color: #64b5f6 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #64b5f6 !important;
+    color: #ffffff !important;
+}
+
+/* Search form */
+.form-control {
+    background-color: #333333 !important;
+    border: 1px solid #404040 !important;
+    color: #e0e0e0 !important;
+}
+
+.form-control:focus {
+    background-color: #333333 !important;
+    border-color: #64b5f6 !important;
+    color: #e0e0e0 !important;
+    box-shadow: 0 0 0 0.2rem rgba(100, 181, 246, 0.25) !important;
+}
+
+/* Social media icons */
+.social-icons a {
+    color: #64b5f6 !important;
+}
+
+.social-icons a:hover {
+    color: #42a5f5 !important;
+}
+
+/* Post previews */
+.post-preview {
+    border-bottom: 1px solid #404040 !important;
+}
+
+.post-preview h2 a {
+    color: #ffffff !important;
+}
+
+.post-preview .post-meta {
+    color: #b0b0b0 !important;
+}
+
+/* Pagination */
+.pagination .page-link {
+    background-color: #2d2d2d !important;
+    border: 1px solid #404040 !important;
+    color: #64b5f6 !important;
+}
+
+.pagination .page-link:hover {
+    background-color: #404040 !important;
+    color: #42a5f5 !important;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #64b5f6 !important;
+    border-color: #64b5f6 !important;
+    color: #ffffff !important;
+}
+
+/* Tags */
+.blog-tags a {
+    background-color: #333333 !important;
+    color: #64b5f6 !important;
+    border: 1px solid #404040 !important;
+}
+
+.blog-tags a:hover {
+    background-color: #64b5f6 !important;
+    color: #ffffff !important;
+}
+
+/* Syntax highlighting adjustments */
+.highlight {
+    background-color: #1e1e1e !important;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .navbar-custom {
+        background-color: #2d2d2d !important;
+    }
+    
+    .navbar-collapse {
+        background-color: #2d2d2d !important;
+        border-top: 1px solid #404040 !important;
+        margin-top: 10px !important;
+        padding-top: 10px !important;
+    }
+    
+    body {
+        font-size: 15px !important;
+    }
+    
+    h1 { font-size: 2rem !important; }
+    h2 { font-size: 1.75rem !important; }
+    h3 { font-size: 1.5rem !important; }
+}
+
+/* Additional Professional Typography */
+p {
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+    margin-bottom: 1.2rem !important;
+    color: #e0e0e0 !important;
+}
+
+/* Better text rendering */
+* {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    text-rendering: optimizeLegibility !important;
+}
+
+/* Professional list styling */
+ul, ol {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    color: #e0e0e0 !important;
+}
+
+li {
+    margin-bottom: 0.5rem !important;
+}
+
+/* Post content typography */
+.post-content {
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+}
+
+.post-title {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.025em !important;
+}
+
+/* Footer typography */
+.footer {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+}
+
+/* Form elements */
+input, textarea, select {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 15px !important;
+}
+
+/* Button typography */
+.btn {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    letter-spacing: 0.025em !important;
+    text-transform: none !important;
+}
