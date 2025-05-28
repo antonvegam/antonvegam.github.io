@@ -40,9 +40,9 @@ languages:
 
 social-network-links:
   email: "antonvegamendez@gmail.com"
-  github: "https://github.com/antonvegam"
-  linkedin: antonvega-bioinformatics
-  ORCID: "https://orcid.org/0009-0004-0525-6635"
+  github: https://github.com/antonvegam
+  linkedin: https://www.linkedin.com/in/ant%C3%B3n-vega-m%C3%A9ndez-b85a19238/
+  ORCID: https://orcid.org/0009-0004-0525-6635
   # ResearchGate can be added as a custom link if needed
 
 ###########################
@@ -78,7 +78,7 @@ navbar-var-length: true
 ######################################
 
 # Dark theme color scheme for professional bioinformatics website
-page-col: "#54b86f"           # Dark background
+page-col: "#1a1a1a"           # Dark background
 text-col: "#e0e0e0"           # Light text
 link-col: "#64b5f6"           # Professional blue links
 hover-col: "#42a5f5"          # Lighter blue on hover
